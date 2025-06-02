@@ -44,6 +44,17 @@ def min_over(*args):           #Oscar added
 
     return min(numbers)
 
+def min_over_pf2(*args):           #Oscar added
+    numbers = []
+    for entry in min(args):
+        try:
+            value = min(entry)
+        except TypeError:
+            value = entry
+        numbers.append(value)
+
+    return min(numbers)
+
 def guaranteed95_over(*args):           #Oscar added
     numbers = []
     for entry in args[0]:
@@ -252,6 +263,7 @@ def get_model_for_problem_formulation(problem_formulation_id):
         rfr_costs_variables = []
         evac_cost_variables = []
         casuality_varaibles = []
+        wl_variables = []
 
         damage_variables.extend(
             [f"{dike}_Expected Annual Damage" for dike in function.dikelist]
@@ -264,8 +276,17 @@ def get_model_for_problem_formulation(problem_formulation_id):
         casuality_varaibles.extend(
             [f"{dike}_Expected Number of Deaths" for dike in function.dikelist]
         )
+        wl_variables.extend(
+            [f"{dike}_Water Level" for dike in function.dikelist]
+        )
 
         dike_model.outcomes = [
+            ScalarOutcome(
+                "Minimum Water Level",
+                variable_name=[var for var in wl_variables],
+                function=min_over_pf2,
+                kind=direction,
+            ),
             ScalarOutcome(
                 "Expected Annual Damage",
                 variable_name=[var for var in damage_variables],
