@@ -55,6 +55,11 @@ def min_over_pf2(*args):           #Oscar added
 
     return min(numbers)
 
+def min_over_time(*args):
+    data = np.asarray(args)
+    minned = data.min(axis=0)
+    return minned
+
 def guaranteed95_over(*args):           #Oscar added
     numbers = []
     for entry in args[0]:
@@ -395,6 +400,16 @@ def get_model_for_problem_formulation(problem_formulation_id):
     # Disaggregate over time:
     elif problem_formulation_id == 4:
         outcomes = []
+
+        outcomes.append(
+            ArrayOutcome(
+                f"Minimum Water Level",
+                variable_name=[
+                    f"{dike}_Water Level" for dike in function.dikelist
+                ],
+                function=min_over_time,
+            )
+        )
 
         outcomes.append(
             ArrayOutcome(
