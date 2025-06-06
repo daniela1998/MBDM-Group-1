@@ -290,7 +290,7 @@ def get_model_for_problem_formulation(problem_formulation_id):
                 "Minimum Water Level",
                 variable_name=[var for var in wl_variables],
                 function=min_over_pf2,
-                kind=direction,
+                kind=ScalarOutcome.MAXIMIZE,
             ),
             ScalarOutcome(
                 "Expected Annual Damage",
@@ -356,7 +356,7 @@ def get_model_for_problem_formulation(problem_formulation_id):
                     f"{dike}_Minimum Water Level",
                     variable_name=f"{dike}_Water Level",
                     function=min_over,
-                    kind=direction,
+                    kind=ScalarOutcome.MAXIMIZE,
                 )
             )
 
@@ -365,7 +365,7 @@ def get_model_for_problem_formulation(problem_formulation_id):
                     f"{dike}_95% Guaranteed Water Level",
                     variable_name=f"{dike}_Water Level",
                     function=guaranteed95_over,
-                    kind=direction,
+                    kind=ScalarOutcome.MAXIMIZE,
                 )
             )
 
@@ -374,7 +374,7 @@ def get_model_for_problem_formulation(problem_formulation_id):
                     f"{dike}_98% Guaranteed Water Level",
                     variable_name=f"{dike}_Water Level",
                     function=guaranteed98_over,
-                    kind=direction,
+                    kind=ScalarOutcome.MAXIMIZE,
                 )
             )
 
