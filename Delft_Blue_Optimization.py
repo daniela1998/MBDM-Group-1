@@ -11,7 +11,7 @@ if __name__ == '__main__':
     ema_logging.log_to_stderr(level=ema_logging.INFO)
 
     dike_model, planning_steps = get_model_for_problem_formulation(2)
-    seeds = [27, 36, 98, 61, 50]
+    seeds = [27097, 367, 9886, 61, 578986]
     epsilon = [0.1] * len(dike_model.outcomes)
     nfe = 1000  # Set to your actual target
     os.makedirs("output", exist_ok=True)
