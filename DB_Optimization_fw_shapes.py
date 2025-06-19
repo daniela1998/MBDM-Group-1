@@ -61,8 +61,8 @@ if __name__ == '__main__':
             )
 
             # Save regular results
-            pd.DataFrame(results).to_csv(f"output_oscar/fw_shapes/results_seed_{seed}_fw_shape_{fw_shape}.csv", index=False)
-            pd.DataFrame(convergence).to_csv(f"output_oscar/fw_shapes/convergence_seed_{seed}_fw_shape_{fw_shape}.csv", index=False)
+            pd.DataFrame(results).to_csv(f"output/fw_shapes/results_seed_{seed}_fw_shape_{fw_shape}.csv", index=False)
+            pd.DataFrame(convergence).to_csv(f"output/fw_shapes/convergence_seed_{seed}_fw_shape_{fw_shape}.csv", index=False)
 
             # Extract archive logger contents
             #logger_results = logger.load()
