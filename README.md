@@ -110,11 +110,7 @@ Structure inside this ZIP file:
       -README.md (this file)
 
 
-## Main Files
-
-- Open_exploration_scenario_policy.ipynb
-- MORDM Analysis.ipynb
-- MORDM PRIM.ipynb
+## Main Files and Folders
 
  File/Folder                     | Purpose                                                                                                                                  |
 |--------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
@@ -131,3 +127,10 @@ Structure inside this ZIP file:
 
 
 ## How to Use
+
+To reproduce the analysis and explore the results, follow the steps below. This guide assumes a working knowledge of Python and Jupyter Notebooks.
+
+### 1. Set up your environment
+
+- Ensure you are using **Python 3.8 or higher**.
+- Install required packages:ema_workbench 2.5.3 Mesa 2.1.4
