@@ -144,15 +144,11 @@ Start by running Open_exploration_scenario_policy.ipynb
 Run the files for MORDM in the following order: 
 
 #### Optimization
-DB_Optimization.py
-
+- DB_Optimization.py
 #### Convergence Metrics
-Convergence Metrics.ipynb
-Use this notebook to evaluate the convergence of the optimization process across different random seeds. This helps determine whether the optimization was stable and reliable.
-
+- Convergence Metrics.ipynb
 #### Robustness & Candidate Evaluation
 MORDM Analysis.ipynb
-
 #### Scenario Discovery on Robust Solutions
 MORDM PRIM.ipynb
 
