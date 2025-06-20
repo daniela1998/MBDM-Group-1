@@ -140,9 +140,9 @@ To reproduce the analysis and explore the results, follow the steps below. This 
 ### 2. Perform Scenario Discovery
 Start by running Open_exploration_scenario_policy.ipynb
 
-### 3.  Multi-objective Optimization
-Run the files in the following order: 
-## Optimization
+### 3.  Directed Search
+Run the files for MORDM in the following order: 
+#### Optimization
 DB_Optimization.py
 
 #### Convergence Metrics
