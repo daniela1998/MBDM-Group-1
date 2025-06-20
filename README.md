@@ -14,14 +14,14 @@ Created by: EPA141 Group
 
 ## Introduction
 
-In the folder (MBDM-Group 1),  can find place group 1's lab submission for the final project of EPA141 Model-based decision-making course.
+In the folder (MBDM-Group 1),  can find group 1's submission for the final project of EPA141 Model-based decision-making course.
 
 This README file is to help a first-time user understand what it is about and how they might be able to use it.
  
 
 ## Purpose and objective of this project
 
-The purpose of this project is to assist the Transport Company (TC) during the negociations and decision-making process of the Room for the River project. This project is located in the IJssel river, and concerns the provinces of Gelderland and Overijssel.
+The purpose of this project is to assist the Transport Company (TC) during the negotiations and decision-making process of the Room for the River project. This project is located in the IJssel river, and concerns the provinces of Gelderland and Overijssel.
 
 This project uses model-based techniques to support the Transport Company. It is noteworthy that this work is done by the analysts of the TC and not the TC themselves. Thereby, the results are meant to be independent and reliable, as the analyst team do not have a political agenda.
 
@@ -98,16 +98,11 @@ Structure inside this ZIP file:
         -rfr_IJssel.png
         -rf_wlreduction.png
 
- 
-    -README.md
-
       Subfolder report
             -MBDM_Group 1_Report.pdf
             -MBDM_Group 1_Political Reflection.pdf
 
-
-
-      -README.md (this file)
+    -README.md (this file)
 
 
 ## Main Files and Folders
