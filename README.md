@@ -133,4 +133,6 @@ To reproduce the analysis and explore the results, follow the steps below. This 
 ### 1. Set up your environment
 
 - Ensure you are using **Python 3.8 or higher**.
-- Install required packages:ema_workbench 2.5.3 Mesa 2.1.4
+- Install required packages
+ - **ema_workbench 2.5.3** 
+ - **Mesa 2.1.4**
