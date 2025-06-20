@@ -140,8 +140,9 @@ To reproduce the analysis and explore the results, follow the steps below. This 
 ### 2. Perform Scenario Discovery
 Start by running Open_exploration_scenario_policy.ipynb
 
-### 3.  Directed Search
+### 3. Execute Directed Search
 Run the files for MORDM in the following order: 
+
 #### Optimization
 DB_Optimization.py
 
@@ -155,6 +156,6 @@ MORDM Analysis.ipynb
 #### Scenario Discovery on Robust Solutions
 MORDM PRIM.ipynb
 
-### 3. Output & Interpretation
+### 4. Data and Results
 All results from optimizations and robustness analyses are saved in the Results/ and output/ folders.
 
