@@ -134,8 +134,8 @@ To reproduce the analysis and explore the results, follow the steps below. This 
 
 - Ensure you are using **Python 3.8 or higher**.
 - Install required packages
-  **ema_workbench 2.5.3** 
-  **Mesa 2.1.4**
+  - **ema_workbench 2.5.3**
+  - **Mesa 2.1.4**
 
 ### 2. Perform Scenario Discovery
 Start by running Open_exploration_scenario_policy.ipynb
@@ -147,10 +147,10 @@ Run the files for MORDM in the following order:
 - DB_Optimization.py
 #### Convergence Metrics
 - Convergence Metrics.ipynb
-#### Robustness & Candidate Evaluation
-MORDM Analysis.ipynb
+#### Robustness & Candidate Strategies Evaluation
+- MORDM Analysis.ipynb
 #### Scenario Discovery on Robust Solutions
-MORDM PRIM.ipynb
+- MORDM PRIM.ipynb
 
 ### 4. Data and Results
 All results from optimizations and robustness analyses are saved in the Results/ and output/ folders.
