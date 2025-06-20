@@ -145,14 +145,14 @@ Run the files in the following order:
 ## Optimization
 DB_Optimization.py
 
-## Convergence Metrics
+#### Convergence Metrics
 Convergence Metrics.ipynb
 Use this notebook to evaluate the convergence of the optimization process across different random seeds. This helps determine whether the optimization was stable and reliable.
 
-## Robustness & Candidate Evaluation
+#### Robustness & Candidate Evaluation
 MORDM Analysis.ipynb
 
-## Scenario Discovery on Robust Solutions
+#### Scenario Discovery on Robust Solutions
 MORDM PRIM.ipynb
 
 ### 3. Output & Interpretation
