@@ -1,7 +1,7 @@
 # EPA-simmodel
 # README File
 
-Created by: EPA141 Group 
+Created by: EPA141 Group 1
 
 |    Name     | Student Number |
 | :---------: | :------------- |
@@ -14,7 +14,7 @@ Created by: EPA141 Group
 
 ## Introduction
 
-In the folder (MBDM-Group 1),  can find group 1's submission for the final project of EPA141 Model-based decision-making course.
+In the folder (MBDM-Group 1),  is group 1's submission for the final project of EPA141 Model-based decision-making course.
 
 This README file is to help a first-time user understand what it is about and how they might be able to use it.
  
