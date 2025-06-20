@@ -99,7 +99,7 @@ Structure inside this ZIP file:
         -rf_wlreduction.png
 
       Subfolder report
-            -MBDM_Group 1_Report.pdf
+            -MBDM_Group 1_Modeling Report.pdf
             -MBDM_Group 1_Political Reflection.pdf
 
     -README.md (this file)
@@ -109,14 +109,14 @@ Structure inside this ZIP file:
 
  File/Folder                     | Purpose                                                                                                                                  |
 |--------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| `Results/`                        | Stores the experiments, outcomes, filtered policies and final robust policies produced by MORDM Analysis.ipynb C                                            |
-| `data/`                  | Contains the data with the reference scenario produced by PRIM.ipynb, the functions used by the model to perform calculations and the RfR strategies.                                                        |
-| `output/`                      | Stores the outputs of the optimization algorithm and the convergence metrics in Optimization_DB.py runned for multiple seeds.                                                                                 |
+| `Results/`                        | Stores the experiments, outcomes, filtered policies and final robust policies produced by MORDM Analysis.ipynb                                            |
+| `data/`                  | Contains the data with the reference scenario produced by PRIM.ipynb, the functions used by the model to perform calculations and the RfR strategies.                                                      |
+| `output/`                      | Stores the outputs of the optimization algorithm and the convergence metrics in Optimization_DB.py runned for multiple seeds.                                                                               |
 | `Results/`                     | Stores the experiments and outcomes produced by PRIM, including robustness metrics and final policies.  
 | `Open_exploration_scenario_policy.ipynb`  | Contains the code for the BAU analysis with random trees and sobol. It generates the reference scenario found with PRIM.               
 | `DB_Optimization.ipynb` | Runs the optimization algorithm across multiple seeds and generates corresponding convergence results.                             |
 | `Convergence Metrics.ipynb` | Calculates and plots convergence metrics derived from the optimization results.                                                      |
-| `MORDM Analysis.`  | Generates the Pareto front from the optimization results, calculates the robustness metrics, and identifies the top 10 candidate strategies.                                     |
+| `MORDM Analysis.`  | Generates the Pareto front from the optimization results, calculates the robustness metrics, and identifies the top 10 candidate strategies.                                   |
 | `MORDM PRIM.ipynb`    |       Applies scenario discovery to the candidate solutions                 |
 
 
