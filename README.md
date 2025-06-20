@@ -126,7 +126,7 @@ Structure inside this ZIP file:
 | `DB_Optimization.ipynb` | Runs the optimization algorithm across multiple seeds and generates corresponding convergence results.                             |
 | `Convergence Metrics.ipynb` | Calculates and plots convergence metrics derived from the optimization results.                                                      |
 | `MORDM Analysis.`  | Generates the Pareto front from the optimization results, calculates the robustness metrics, and identifies the top 10 candidate strategies.                                     |
-| `MORDM PRIM.ipynb`           Applies scenario discovery to the candidate solutions       |          |
+| `MORDM PRIM.ipynb`    |       Applies scenario discovery to the candidate solutions                 |
 
 
 
